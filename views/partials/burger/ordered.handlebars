@@ -2,13 +2,13 @@
 <br>
 <ul>
   {{#each burgers}}
-  	{{!-- {{#unless this.dataValues.devoured}} --}}
+  	{{#unless this.dataValues.devoured}}
      <li>
      <span id="readyBurgerBox">
         {{this.burger_name}}
      </span>
      </li> 
-     	{{!-- {{>allform/updateForm}}
-    {{/unless}} --}}
+     	{{>allform/updateForm}}
+    {{/unless}}
   {{/each}}
 </ul>

@@ -22,9 +22,6 @@ router.get('/burgers', function (req, res) {
 });
 
 router.post('/burgers/create', function (req, res) {
-	//burger.insertOne(['burger_name', 'devoured'], [req.body.burger_name, false], function () {
-	//	res.redirect('/burgers');
-	//});
 	var burger = req.body;
 	console.log(burger);
 	models.sequelizedBurger.create({
@@ -36,15 +33,24 @@ router.post('/burgers/create', function (req, res) {
   })
 });
 
-// router.put('/burgers/update/:id', function (req, res) {
-// 	var condition = 'id = ' + req.params.id;
+router.put('/burgers/update/:id', function (req, res) {
 
-// 	console.log('condition', condition);
-
+models.sequelizedBurger.update(
+  {
+    devoured: req.body.devoured
+  },
+  {
+    where: { id : req.params.id }
+  })
+  // connect it to this .then.
+  .then(function (result) {
+    res.redirect('/');
+  })
 // 	burger.updateOne({ devoured: req.body.devoured}, condition, function () {
 // 		res.redirect('/burgers');
 // 	});
-// });
+
+});
 
 // router.delete('/burgers/delete/:id', function (req, res) {
 // 	var condition = 'id = ' + req.params.id;
