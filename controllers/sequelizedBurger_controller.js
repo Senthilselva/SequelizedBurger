@@ -45,10 +45,7 @@ models.sequelizedBurger.update(
   // connect it to this .then.
   .then(function (result) {
     res.redirect('/');
-  })
-// 	burger.updateOne({ devoured: req.body.devoured}, condition, function () {
-// 		res.redirect('/burgers');
-// 	});
+  });
 
 });
 
@@ -60,9 +57,8 @@ models.sequelizedBurger.update(
 // 	});
 // });
 
-// router.get('/*',function(req,res){
-// 	res.sendFile(path.join(__dirname + '/../public/test.html'));
-// 	//res.sendFile('/test.html');
-// })
+router.get('/*',function(req,res){
+	res.sendFile(path.join(__dirname + '/../public/test.html'));
+})
 
 module.exports = router;
