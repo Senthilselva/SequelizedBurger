@@ -1,21 +1,21 @@
 {
-  "name": "eat-da-burger",
+  "name": "sequelizedBurger",
   "version": "1.0.0",
-  "description": "handelbar",
+  "description": "sequelize",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Senthilselva/Eat-Da-Burger.git"
+    "url": "git+https://github.com/Senthilselva/SequelizedBurger.git"
   },
   "author": "senthil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Senthilselva/Eat-Da-Burger/issues"
+    "url": "https://github.com/Senthilselva/SequelizedBurger/issues"
   },
-  "homepage": "https://github.com/Senthilselva/Eat-Da-Burger#readme",
+  "homepage": "https://github.com/Senthilselva/SequelizedBurger#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
