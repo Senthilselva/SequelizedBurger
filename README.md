@@ -1,6 +1,5 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Sequelize Burger}
+
+#Sequelize Burger
 This is app resemble a to do list. Using Sequelize(Burger)
 ## Installation
 	1. Clone the Repo
@@ -11,8 +10,3 @@ This is app resemble a to do list. Using Sequelize(Burger)
 	3. Open chrome and localhost:3000/
 ## Credits
 Senthil Selvakumar
-## License
-TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
