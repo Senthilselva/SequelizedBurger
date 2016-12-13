@@ -1,6 +1,6 @@
 
 #Sequelize Burger
-This is app resemble a to do list. Using Sequelize(MySQL),Handelbars
+This is app resemble a TODO list. Using Sequelize(MySQL)&Handelbars
 ## Installation
 	1. Clone the Repo
 	2. NPM Install
@@ -11,6 +11,5 @@ This is app resemble a to do list. Using Sequelize(MySQL),Handelbars
 	This is also uploaded on Heroku: 
 	    https://powerful-dawn-37251.herokuapp.com/burgers
 ## Techonology Used
-	HTML, BootStrap, JQuery, Handlebars, MySQL,Sequelize
-## Credits
-	Senthil Selvakumar
+	HTML, BootStrap, JQuery, Handlebars, MySQL,Sequelize, Express
+
