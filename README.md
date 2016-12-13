@@ -11,6 +11,6 @@ This is app resemble a to do list. Using Sequelize(MySQL),Handelbars
 	This is also uploaded on Heroku: 
 	    https://powerful-dawn-37251.herokuapp.com/burgers
 ## Techonology Used
-	HTML, BootStrap, JQuery, Hadlebars, MySQL,Sequelize
+	HTML, BootStrap, JQuery, Handlebars, MySQL,Sequelize
 ## Credits
 	Senthil Selvakumar
