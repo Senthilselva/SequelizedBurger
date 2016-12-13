@@ -7,9 +7,9 @@ This is app resemble a to do list. Using Sequelize(MySQL),Handelbars
 	3. Change the Config.json
 ## Usage
 	1. RUN node server.js
-	3. Open chrome and localhost:3000/
-	better yet This is on Heroku
-	try
+	2. Open chrome and localhost:3000/
+	This is also uploaded on Heroku: 
+	    https://powerful-dawn-37251.herokuapp.com/burgers
 ## Techonology Used
 	HTML, BootStrap, JQuery, Hadlebars, MySQL,Sequelize
 ## Credits
