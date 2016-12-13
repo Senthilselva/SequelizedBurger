@@ -1,6 +1,6 @@
 
 #Sequelize Burger
-This is app resemble a TODO list. Using Sequelize(MySQL)&Handelbars
+This application resembles a TODO list. Using Sequelize(MySQL)&Handelbars
 ## Installation
 	1. Clone the Repo
 	2. NPM Install
